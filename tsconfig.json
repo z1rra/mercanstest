@@ -11,6 +11,7 @@
     "types": ["codeceptjs", "node"],
     "declaration": true,
     "skipLibCheck": true,
+    "resolveJsonModule" : true
   },
   "exclude": ["node_modules"]
 }

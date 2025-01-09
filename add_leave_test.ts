@@ -19,6 +19,7 @@ Scenario('Employee request paid leave', ({ I }) => {
     //navigate to leaves
     I.click('Leaves');
     //fill out the leave request, only date fields are changed at the moment
+    //TODO this should be a function if it needs to be reused
     I.click('//button[@aria-label="Request new leave"]');
     I.click('//div[@class="day-cell" and text()="14"]');
     I.click('//div[@class="day-cell" and text()="15"]');
